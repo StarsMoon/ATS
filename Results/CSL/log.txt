@@ -1,0 +1,415 @@
+[2022-05-28 15:55:08,432][model_v2.py][line:426][INFO] ********** Running training **********
+[2022-05-28 15:55:08,434][model_v2.py][line:426][INFO]   Num examples = 3000
+[2022-05-28 15:55:08,437][model_v2.py][line:426][INFO]   Num Epochs = 4
+[2022-05-28 15:55:08,440][model_v2.py][line:426][INFO]   Instantaneous train batch size = 1
+[2022-05-28 15:55:08,441][model_v2.py][line:426][INFO]   Instantaneous eval batch size = 12
+[2022-05-28 15:55:08,441][model_v2.py][line:426][INFO]   Total train batch size (w. accumulation) = 2
+[2022-05-28 15:55:08,442][model_v2.py][line:426][INFO]   Gradient Accumulation steps = 2
+[2022-05-28 15:55:08,445][model_v2.py][line:426][INFO]   Total optimization steps = 5000
+[2022-05-28 15:55:08,643][arrow_dataset.py][line:2785][WARNING] Loading cached shuffled indices for dataset at ../input/fewshott5/Data/csl_title/train/cache-f1e62f35a1a86843.arrow
+[2022-05-28 15:55:08,653][model_v2.py][line:426][INFO] ********** Pretraining **********
+[2022-05-28 15:56:06,791][model_v2.py][line:426][INFO] ********** Pretraining finished**********
+[2022-05-28 15:57:31,177][model_v2.py][line:426][INFO] global_steps 25 - lr: 0.0000499877  loss: 6.00392675
+[2022-05-28 15:58:53,293][model_v2.py][line:426][INFO] global_steps 50 - lr: 0.0000499722  loss: 5.26790142
+[2022-05-28 15:59:47,243][model_v2.py][line:426][INFO] global_steps 75 - lr: 0.0000499507  loss: 5.93505144
+[2022-05-28 16:00:59,375][model_v2.py][line:426][INFO] global_steps 100 - lr: 0.0000499229  loss: 5.73784256
+[2022-05-28 16:00:59,377][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 16:00:59,378][model_v2.py][line:426][INFO] ********** Step 100 **********
+[2022-05-28 16:01:55,602][model_v2.py][line:426][INFO] ********** Saving best result in step 100 **********
+[2022-05-28 16:02:02,318][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 16:03:28,959][model_v2.py][line:426][INFO] global_steps 125 - lr: 0.0000498890  loss: 6.67626143
+[2022-05-28 16:04:53,547][model_v2.py][line:426][INFO] global_steps 150 - lr: 0.0000498490  loss: 4.30892944
+[2022-05-28 16:06:07,979][model_v2.py][line:426][INFO] global_steps 175 - lr: 0.0000498029  loss: 4.31332874
+[2022-05-28 16:09:13,894][model_v2.py][line:426][INFO] global_steps 200 - lr: 0.0000497506  loss: 4.59799099
+[2022-05-28 16:09:13,896][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 16:09:13,898][model_v2.py][line:426][INFO] ********** Step 200 **********
+[2022-05-28 16:10:12,924][model_v2.py][line:426][INFO] ********** Saving best result in step 200 **********
+[2022-05-28 16:10:12,925][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 16:12:01,599][model_v2.py][line:426][INFO] global_steps 225 - lr: 0.0000496922  loss: 4.32684708
+[2022-05-28 16:14:12,907][model_v2.py][line:426][INFO] global_steps 250 - lr: 0.0000496277  loss: 5.52658129
+[2022-05-28 16:16:44,495][model_v2.py][line:426][INFO] global_steps 275 - lr: 0.0000495572  loss: 3.80366039
+[2022-05-28 16:18:40,790][model_v2.py][line:426][INFO] global_steps 300 - lr: 0.0000494806  loss: 3.57456446
+[2022-05-28 16:18:40,791][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 16:18:40,791][model_v2.py][line:426][INFO] ********** Step 300 **********
+[2022-05-28 16:19:48,556][model_v2.py][line:426][INFO] ********** Saving best result in step 300 **********
+[2022-05-28 16:19:48,557][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 16:21:01,263][model_v2.py][line:426][INFO] global_steps 325 - lr: 0.0000493979  loss: 3.77382565
+[2022-05-28 16:24:03,637][model_v2.py][line:426][INFO] global_steps 350 - lr: 0.0000493092  loss: 3.54652166
+[2022-05-28 16:25:58,404][model_v2.py][line:426][INFO] global_steps 375 - lr: 0.0000492146  loss: 4.40244007
+[2022-05-28 16:29:29,968][model_v2.py][line:426][INFO] global_steps 400 - lr: 0.0000491139  loss: 3.59490871
+[2022-05-28 16:29:29,969][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 16:29:29,971][model_v2.py][line:426][INFO] ********** Step 400 **********
+[2022-05-28 16:30:45,649][model_v2.py][line:426][INFO] ********** Saving best result in step 400 **********
+[2022-05-28 16:30:45,652][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 16:33:06,508][model_v2.py][line:426][INFO] global_steps 425 - lr: 0.0000490073  loss: 3.14254308
+[2022-05-28 16:35:15,609][model_v2.py][line:426][INFO] global_steps 450 - lr: 0.0000488948  loss: 3.51282144
+[2022-05-28 16:37:46,946][model_v2.py][line:426][INFO] global_steps 475 - lr: 0.0000487764  loss: 3.20872402
+[2022-05-28 16:39:39,639][model_v2.py][line:426][INFO] global_steps 500 - lr: 0.0000486521  loss: 3.83789921
+[2022-05-28 16:39:39,640][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 16:39:39,641][model_v2.py][line:426][INFO] ********** Step 500 **********
+[2022-05-28 16:40:39,891][model_v2.py][line:426][INFO] ********** Saving best result in step 500 **********
+[2022-05-28 16:40:39,893][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 16:43:17,683][model_v2.py][line:426][INFO] global_steps 525 - lr: 0.0000485220  loss: 3.21757579
+[2022-05-28 16:45:27,715][model_v2.py][line:426][INFO] global_steps 550 - lr: 0.0000483861  loss: 2.87748742
+[2022-05-28 16:48:01,496][model_v2.py][line:426][INFO] global_steps 575 - lr: 0.0000482444  loss: 2.99104881
+[2022-05-28 16:51:04,354][model_v2.py][line:426][INFO] global_steps 600 - lr: 0.0000480970  loss: 2.80430079
+[2022-05-28 16:51:04,355][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 16:51:04,356][model_v2.py][line:426][INFO] ********** Step 600 **********
+[2022-05-28 16:52:22,688][model_v2.py][line:426][INFO] ********** Saving best result in step 600 **********
+[2022-05-28 16:52:22,689][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 16:55:21,859][model_v2.py][line:426][INFO] global_steps 625 - lr: 0.0000479439  loss: 4.08539581
+[2022-05-28 16:58:55,027][model_v2.py][line:426][INFO] global_steps 650 - lr: 0.0000477851  loss: 2.76691389
+[2022-05-28 17:01:07,137][model_v2.py][line:426][INFO] global_steps 675 - lr: 0.0000476207  loss: 2.85550642
+[2022-05-28 17:03:32,377][model_v2.py][line:426][INFO] global_steps 700 - lr: 0.0000474507  loss: 2.43132067
+[2022-05-28 17:03:32,378][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 17:03:32,381][model_v2.py][line:426][INFO] ********** Step 700 **********
+[2022-05-28 17:04:47,952][model_v2.py][line:426][INFO] ********** Saving best result in step 700 **********
+[2022-05-28 17:04:47,954][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 17:07:16,476][model_v2.py][line:426][INFO] global_steps 725 - lr: 0.0000472752  loss: 3.02456474
+[2022-05-28 17:10:28,134][model_v2.py][line:426][INFO] global_steps 750 - lr: 0.0000470941  loss: 3.10210204
+[2022-05-28 17:13:39,360][model_v2.py][line:426][INFO] global_steps 775 - lr: 0.0000469077  loss: 2.59464288
+[2022-05-28 17:16:31,825][model_v2.py][line:426][INFO] global_steps 800 - lr: 0.0000467158  loss: 2.91893816
+[2022-05-28 17:16:31,825][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 17:16:31,828][model_v2.py][line:426][INFO] ********** Step 800 **********
+[2022-05-28 17:17:50,853][model_v2.py][line:426][INFO] ********** Saving best result in step 800 **********
+[2022-05-28 17:17:50,854][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 17:20:20,363][model_v2.py][line:426][INFO] global_steps 825 - lr: 0.0000465186  loss: 2.41386485
+[2022-05-28 17:23:14,986][model_v2.py][line:426][INFO] global_steps 850 - lr: 0.0000463160  loss: 2.58725548
+[2022-05-28 17:26:00,590][model_v2.py][line:426][INFO] global_steps 875 - lr: 0.0000461082  loss: 2.82451725
+[2022-05-28 17:28:52,090][model_v2.py][line:426][INFO] global_steps 900 - lr: 0.0000458952  loss: 2.57136393
+[2022-05-28 17:28:52,091][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 17:28:52,092][model_v2.py][line:426][INFO] ********** Step 900 **********
+[2022-05-28 17:30:11,931][model_v2.py][line:426][INFO] ********** Saving best result in step 900 **********
+[2022-05-28 17:30:11,933][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 17:33:15,387][model_v2.py][line:426][INFO] global_steps 925 - lr: 0.0000456770  loss: 2.80095720
+[2022-05-28 17:35:18,757][model_v2.py][line:426][INFO] global_steps 950 - lr: 0.0000454537  loss: 2.16329265
+[2022-05-28 17:38:28,748][model_v2.py][line:426][INFO] global_steps 975 - lr: 0.0000452254  loss: 2.48292899
+[2022-05-28 17:41:39,939][model_v2.py][line:426][INFO] global_steps 1000 - lr: 0.0000449921  loss: 2.62752843
+[2022-05-28 17:41:39,941][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 17:41:39,941][model_v2.py][line:426][INFO] ********** Step 1000 **********
+[2022-05-28 17:43:03,754][model_v2.py][line:426][INFO] ********** Saving best result in step 1000 **********
+[2022-05-28 17:43:03,757][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 17:46:07,659][model_v2.py][line:426][INFO] global_steps 1025 - lr: 0.0000447539  loss: 2.32426405
+[2022-05-28 17:49:17,430][model_v2.py][line:426][INFO] global_steps 1050 - lr: 0.0000445108  loss: 2.61608100
+[2022-05-28 17:51:11,240][model_v2.py][line:426][INFO] global_steps 1075 - lr: 0.0000442628  loss: 1.98897552
+[2022-05-28 17:54:06,086][model_v2.py][line:426][INFO] global_steps 1100 - lr: 0.0000440101  loss: 2.30890965
+[2022-05-28 17:54:06,087][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 17:54:06,090][model_v2.py][line:426][INFO] ********** Step 1100 **********
+[2022-05-28 17:55:21,680][model_v2.py][line:426][INFO] ********** Saving best result in step 1100 **********
+[2022-05-28 17:55:21,682][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 17:58:30,837][model_v2.py][line:426][INFO] global_steps 1125 - lr: 0.0000437528  loss: 2.55777931
+[2022-05-28 18:01:19,178][model_v2.py][line:426][INFO] global_steps 1150 - lr: 0.0000434908  loss: 1.95968008
+[2022-05-28 18:04:30,021][model_v2.py][line:426][INFO] global_steps 1175 - lr: 0.0000432242  loss: 2.48762846
+[2022-05-28 18:06:47,190][model_v2.py][line:426][INFO] global_steps 1200 - lr: 0.0000429532  loss: 2.12422776
+[2022-05-28 18:06:47,190][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 18:06:47,191][model_v2.py][line:426][INFO] ********** Step 1200 **********
+[2022-05-28 18:07:38,623][model_v2.py][line:426][INFO] ********** Saving best result in step 1200 **********
+[2022-05-28 18:07:38,625][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 18:10:08,305][model_v2.py][line:426][INFO] global_steps 1225 - lr: 0.0000426777  loss: 2.06131434
+[2022-05-28 18:13:05,700][model_v2.py][line:426][INFO] global_steps 1250 - lr: 0.0000423978  loss: 2.24182510
+[2022-05-28 18:16:15,222][model_v2.py][line:426][INFO] global_steps 1275 - lr: 0.0000421137  loss: 1.59694457
+[2022-05-28 18:19:34,922][model_v2.py][line:426][INFO] global_steps 1300 - lr: 0.0000418253  loss: 2.20795965
+[2022-05-28 18:19:34,923][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 18:19:34,924][model_v2.py][line:426][INFO] ********** Step 1300 **********
+[2022-05-28 18:20:57,409][model_v2.py][line:426][INFO] ********** Saving best result in step 1300 **********
+[2022-05-28 18:20:57,411][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 18:23:40,123][model_v2.py][line:426][INFO] global_steps 1325 - lr: 0.0000415328  loss: 1.61902893
+[2022-05-28 18:26:34,159][model_v2.py][line:426][INFO] global_steps 1350 - lr: 0.0000412362  loss: 1.64815581
+[2022-05-28 18:29:37,167][model_v2.py][line:426][INFO] global_steps 1375 - lr: 0.0000409356  loss: 2.02907610
+[2022-05-28 18:32:55,548][model_v2.py][line:426][INFO] global_steps 1400 - lr: 0.0000406311  loss: 1.89082599
+[2022-05-28 18:32:55,549][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 18:32:55,551][model_v2.py][line:426][INFO] ********** Step 1400 **********
+[2022-05-28 18:34:20,734][model_v2.py][line:426][INFO] ********** Saving best result in step 1400 **********
+[2022-05-28 18:34:20,736][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 18:37:38,061][model_v2.py][line:426][INFO] global_steps 1425 - lr: 0.0000403227  loss: 2.20170021
+[2022-05-28 18:40:18,960][model_v2.py][line:426][INFO] global_steps 1450 - lr: 0.0000400105  loss: 1.56346130
+[2022-05-28 18:43:13,267][model_v2.py][line:426][INFO] global_steps 1475 - lr: 0.0000396946  loss: 1.86067605
+[2022-05-28 18:46:12,220][model_v2.py][line:426][INFO] global_steps 1500 - lr: 0.0000393751  loss: 1.67514801
+[2022-05-28 18:46:12,220][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 18:46:12,221][model_v2.py][line:426][INFO] ********** Step 1500 **********
+[2022-05-28 18:47:31,645][model_v2.py][line:426][INFO] ********** Saving best result in step 1500 **********
+[2022-05-28 18:47:31,646][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 18:50:09,485][model_v2.py][line:426][INFO] global_steps 1525 - lr: 0.0000390521  loss: 1.38203442
+[2022-05-28 18:52:48,365][model_v2.py][line:426][INFO] global_steps 1550 - lr: 0.0000387256  loss: 2.06758451
+[2022-05-28 18:55:11,389][model_v2.py][line:426][INFO] global_steps 1575 - lr: 0.0000383957  loss: 1.61801994
+[2022-05-28 18:57:44,643][model_v2.py][line:426][INFO] global_steps 1600 - lr: 0.0000380625  loss: 1.88616776
+[2022-05-28 18:57:44,644][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 18:57:44,645][model_v2.py][line:426][INFO] ********** Step 1600 **********
+[2022-05-28 18:58:59,327][model_v2.py][line:426][INFO] ********** Saving best result in step 1600 **********
+[2022-05-28 18:58:59,328][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 19:01:53,589][model_v2.py][line:426][INFO] global_steps 1625 - lr: 0.0000377260  loss: 2.10691333
+[2022-05-28 19:04:24,414][model_v2.py][line:426][INFO] global_steps 1650 - lr: 0.0000373865  loss: 1.37546611
+[2022-05-28 19:07:06,193][model_v2.py][line:426][INFO] global_steps 1675 - lr: 0.0000370438  loss: 1.93760681
+[2022-05-28 19:09:36,973][model_v2.py][line:426][INFO] global_steps 1700 - lr: 0.0000366982  loss: 1.44851267
+[2022-05-28 19:09:36,974][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 19:09:36,975][model_v2.py][line:426][INFO] ********** Step 1700 **********
+[2022-05-28 19:10:49,778][model_v2.py][line:426][INFO] ********** Saving best result in step 1700 **********
+[2022-05-28 19:10:49,779][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 19:13:22,147][model_v2.py][line:426][INFO] global_steps 1725 - lr: 0.0000363498  loss: 1.61593556
+[2022-05-28 19:16:12,053][model_v2.py][line:426][INFO] global_steps 1750 - lr: 0.0000359985  loss: 1.93271661
+[2022-05-28 19:19:05,072][model_v2.py][line:426][INFO] global_steps 1775 - lr: 0.0000356445  loss: 1.27412319
+[2022-05-28 19:22:06,709][model_v2.py][line:426][INFO] global_steps 1800 - lr: 0.0000352879  loss: 1.77072310
+[2022-05-28 19:22:06,710][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 19:22:06,713][model_v2.py][line:426][INFO] ********** Step 1800 **********
+[2022-05-28 19:23:23,959][model_v2.py][line:426][INFO] ********** Saving best result in step 1800 **********
+[2022-05-28 19:23:23,961][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 19:25:48,232][model_v2.py][line:426][INFO] global_steps 1825 - lr: 0.0000349287  loss: 1.31518364
+[2022-05-28 19:28:45,503][model_v2.py][line:426][INFO] global_steps 1850 - lr: 0.0000345671  loss: 1.55505359
+[2022-05-28 19:31:27,996][model_v2.py][line:426][INFO] global_steps 1875 - lr: 0.0000342031  loss: 1.44789696
+[2022-05-28 19:34:19,911][model_v2.py][line:426][INFO] global_steps 1900 - lr: 0.0000338369  loss: 1.24700665
+[2022-05-28 19:34:19,912][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 19:34:19,913][model_v2.py][line:426][INFO] ********** Step 1900 **********
+[2022-05-28 19:35:39,326][model_v2.py][line:426][INFO] ********** Saving best result in step 1900 **********
+[2022-05-28 19:35:39,327][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 19:38:39,155][model_v2.py][line:426][INFO] global_steps 1925 - lr: 0.0000334684  loss: 1.54697704
+[2022-05-28 19:41:31,696][model_v2.py][line:426][INFO] global_steps 1950 - lr: 0.0000330979  loss: 1.44882178
+[2022-05-28 19:44:05,947][model_v2.py][line:426][INFO] global_steps 1975 - lr: 0.0000327254  loss: 1.44154215
+[2022-05-28 19:47:10,045][model_v2.py][line:426][INFO] global_steps 2000 - lr: 0.0000323510  loss: 1.45325172
+[2022-05-28 19:47:10,046][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 19:47:10,047][model_v2.py][line:426][INFO] ********** Step 2000 **********
+[2022-05-28 19:48:27,461][model_v2.py][line:426][INFO] ********** Saving best result in step 2000 **********
+[2022-05-28 19:48:27,462][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 19:51:03,354][model_v2.py][line:426][INFO] global_steps 2025 - lr: 0.0000319748  loss: 1.38581192
+[2022-05-28 19:53:55,108][model_v2.py][line:426][INFO] global_steps 2050 - lr: 0.0000315968  loss: 1.27591538
+[2022-05-28 19:56:47,842][model_v2.py][line:426][INFO] global_steps 2075 - lr: 0.0000312172  loss: 1.12095308
+[2022-05-28 19:59:40,129][model_v2.py][line:426][INFO] global_steps 2100 - lr: 0.0000308361  loss: 1.23081183
+[2022-05-28 19:59:40,130][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 19:59:40,131][model_v2.py][line:426][INFO] ********** Step 2100 **********
+[2022-05-28 20:00:57,357][model_v2.py][line:426][INFO] ********** Saving best result in step 2100 **********
+[2022-05-28 20:00:57,358][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 20:04:01,030][model_v2.py][line:426][INFO] global_steps 2125 - lr: 0.0000304536  loss: 1.54194522
+[2022-05-28 20:06:56,840][model_v2.py][line:426][INFO] global_steps 2150 - lr: 0.0000300697  loss: 1.18928182
+[2022-05-28 20:09:41,727][model_v2.py][line:426][INFO] global_steps 2175 - lr: 0.0000296845  loss: 1.37274861
+[2022-05-28 20:12:26,965][model_v2.py][line:426][INFO] global_steps 2200 - lr: 0.0000292982  loss: 0.99440479
+[2022-05-28 20:12:26,977][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 20:12:26,983][model_v2.py][line:426][INFO] ********** Step 2200 **********
+[2022-05-28 20:13:44,273][model_v2.py][line:426][INFO] ********** Saving best result in step 2200 **********
+[2022-05-28 20:13:44,276][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 20:16:18,639][model_v2.py][line:426][INFO] global_steps 2225 - lr: 0.0000289109  loss: 1.58299124
+[2022-05-28 20:19:08,313][model_v2.py][line:426][INFO] global_steps 2250 - lr: 0.0000285225  loss: 1.20288706
+[2022-05-28 20:22:17,639][model_v2.py][line:426][INFO] global_steps 2275 - lr: 0.0000281333  loss: 1.12785172
+[2022-05-28 20:25:16,219][model_v2.py][line:426][INFO] global_steps 2300 - lr: 0.0000277434  loss: 1.53759289
+[2022-05-28 20:25:16,220][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 20:25:16,223][model_v2.py][line:426][INFO] ********** Step 2300 **********
+[2022-05-28 20:26:32,792][model_v2.py][line:426][INFO] ********** Saving best result in step 2300 **********
+[2022-05-28 20:26:32,794][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 20:29:23,701][model_v2.py][line:426][INFO] global_steps 2325 - lr: 0.0000273527  loss: 1.13555932
+[2022-05-28 20:32:16,929][model_v2.py][line:426][INFO] global_steps 2350 - lr: 0.0000269615  loss: 1.21263885
+[2022-05-28 20:35:15,355][model_v2.py][line:426][INFO] global_steps 2375 - lr: 0.0000265698  loss: 1.16929483
+[2022-05-28 20:38:09,697][model_v2.py][line:426][INFO] global_steps 2400 - lr: 0.0000261777  loss: 1.32849741
+[2022-05-28 20:38:09,698][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 20:38:09,700][model_v2.py][line:426][INFO] ********** Step 2400 **********
+[2022-05-28 20:39:28,870][model_v2.py][line:426][INFO] ********** Saving best result in step 2400 **********
+[2022-05-28 20:39:28,871][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 20:42:27,775][model_v2.py][line:426][INFO] global_steps 2425 - lr: 0.0000257853  loss: 1.44046307
+[2022-05-28 20:45:06,039][model_v2.py][line:426][INFO] global_steps 2450 - lr: 0.0000253927  loss: 0.99586201
+[2022-05-28 20:47:50,501][model_v2.py][line:426][INFO] global_steps 2475 - lr: 0.0000250000  loss: 1.28637826
+[2022-05-28 20:50:55,519][model_v2.py][line:426][INFO] global_steps 2500 - lr: 0.0000246073  loss: 1.11928391
+[2022-05-28 20:50:55,520][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 20:50:55,523][model_v2.py][line:426][INFO] ********** Step 2500 **********
+[2022-05-28 20:52:13,358][model_v2.py][line:426][INFO] ********** Saving best result in step 2500 **********
+[2022-05-28 20:52:13,359][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 20:55:03,854][model_v2.py][line:426][INFO] global_steps 2525 - lr: 0.0000242147  loss: 1.13712299
+[2022-05-28 20:57:58,834][model_v2.py][line:426][INFO] global_steps 2550 - lr: 0.0000238223  loss: 1.45487058
+[2022-05-28 21:01:01,565][model_v2.py][line:426][INFO] global_steps 2575 - lr: 0.0000234302  loss: 0.91188723
+[2022-05-28 21:03:47,169][model_v2.py][line:426][INFO] global_steps 2600 - lr: 0.0000230385  loss: 1.29389000
+[2022-05-28 21:03:47,171][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 21:03:47,173][model_v2.py][line:426][INFO] ********** Step 2600 **********
+[2022-05-28 21:05:08,965][model_v2.py][line:426][INFO] ********** Saving best result in step 2600 **********
+[2022-05-28 21:05:08,966][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 21:08:02,848][model_v2.py][line:426][INFO] global_steps 2625 - lr: 0.0000226473  loss: 1.21498168
+[2022-05-28 21:10:49,963][model_v2.py][line:426][INFO] global_steps 2650 - lr: 0.0000222566  loss: 1.08037543
+[2022-05-28 21:13:47,450][model_v2.py][line:426][INFO] global_steps 2675 - lr: 0.0000218667  loss: 1.27851236
+[2022-05-28 21:16:42,594][model_v2.py][line:426][INFO] global_steps 2700 - lr: 0.0000214775  loss: 1.23711085
+[2022-05-28 21:16:42,595][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 21:16:42,597][model_v2.py][line:426][INFO] ********** Step 2700 **********
+[2022-05-28 21:17:59,917][model_v2.py][line:426][INFO] ********** Saving best result in step 2700 **********
+[2022-05-28 21:17:59,918][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 21:20:32,842][model_v2.py][line:426][INFO] global_steps 2725 - lr: 0.0000210891  loss: 1.10602474
+[2022-05-28 21:23:19,463][model_v2.py][line:426][INFO] global_steps 2750 - lr: 0.0000207018  loss: 1.06142449
+[2022-05-28 21:26:06,643][model_v2.py][line:426][INFO] global_steps 2775 - lr: 0.0000203155  loss: 0.85670191
+[2022-05-28 21:29:11,905][model_v2.py][line:426][INFO] global_steps 2800 - lr: 0.0000199303  loss: 1.14757228
+[2022-05-28 21:29:11,906][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 21:29:11,906][model_v2.py][line:426][INFO] ********** Step 2800 **********
+[2022-05-28 21:30:30,790][model_v2.py][line:426][INFO] ********** Saving best result in step 2800 **********
+[2022-05-28 21:30:30,791][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 21:33:40,317][model_v2.py][line:426][INFO] global_steps 2825 - lr: 0.0000195464  loss: 1.03773034
+[2022-05-28 21:36:43,717][model_v2.py][line:426][INFO] global_steps 2850 - lr: 0.0000191639  loss: 0.99461114
+[2022-05-28 21:39:36,369][model_v2.py][line:426][INFO] global_steps 2875 - lr: 0.0000187828  loss: 1.08428931
+[2022-05-28 21:42:25,831][model_v2.py][line:426][INFO] global_steps 2900 - lr: 0.0000184032  loss: 1.15360820
+[2022-05-28 21:42:25,832][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 21:42:25,835][model_v2.py][line:426][INFO] ********** Step 2900 **********
+[2022-05-28 21:43:48,473][model_v2.py][line:426][INFO] ********** Saving best result in step 2900 **********
+[2022-05-28 21:43:48,474][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 21:46:44,791][model_v2.py][line:426][INFO] global_steps 2925 - lr: 0.0000180252  loss: 1.29705119
+[2022-05-28 21:49:35,400][model_v2.py][line:426][INFO] global_steps 2950 - lr: 0.0000176490  loss: 1.00362468
+[2022-05-28 21:52:30,720][model_v2.py][line:426][INFO] global_steps 2975 - lr: 0.0000172746  loss: 1.21249604
+[2022-05-28 21:55:24,280][model_v2.py][line:426][INFO] global_steps 3000 - lr: 0.0000169021  loss: 0.99522924
+[2022-05-28 21:55:24,281][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 21:55:24,282][model_v2.py][line:426][INFO] ********** Step 3000 **********
+[2022-05-28 21:56:45,372][model_v2.py][line:426][INFO] ********** Saving best result in step 3000 **********
+[2022-05-28 21:56:45,388][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 21:59:40,744][model_v2.py][line:426][INFO] global_steps 3025 - lr: 0.0000165316  loss: 0.78089786
+[2022-05-28 22:02:46,664][model_v2.py][line:426][INFO] global_steps 3050 - lr: 0.0000161631  loss: 1.30078793
+[2022-05-28 22:05:42,784][model_v2.py][line:426][INFO] global_steps 3075 - lr: 0.0000157969  loss: 0.97642350
+[2022-05-28 22:08:27,121][model_v2.py][line:426][INFO] global_steps 3100 - lr: 0.0000154329  loss: 1.34170687
+[2022-05-28 22:08:27,122][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 22:08:27,125][model_v2.py][line:426][INFO] ********** Step 3100 **********
+[2022-05-28 22:09:48,535][model_v2.py][line:426][INFO] ********** Saving best result in step 3100 **********
+[2022-05-28 22:09:48,537][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 22:12:24,148][model_v2.py][line:426][INFO] global_steps 3125 - lr: 0.0000150713  loss: 1.47703588
+[2022-05-28 22:14:58,998][model_v2.py][line:426][INFO] global_steps 3150 - lr: 0.0000147121  loss: 0.92474258
+[2022-05-28 22:17:38,883][model_v2.py][line:426][INFO] global_steps 3175 - lr: 0.0000143555  loss: 1.16388488
+[2022-05-28 22:20:38,835][model_v2.py][line:426][INFO] global_steps 3200 - lr: 0.0000140015  loss: 1.06326747
+[2022-05-28 22:20:38,837][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 22:20:38,838][model_v2.py][line:426][INFO] ********** Step 3200 **********
+[2022-05-28 22:22:00,150][model_v2.py][line:426][INFO] ********** Saving best result in step 3200 **********
+[2022-05-28 22:22:00,153][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 22:24:50,579][model_v2.py][line:426][INFO] global_steps 3225 - lr: 0.0000136502  loss: 1.10861802
+[2022-05-28 22:27:35,932][model_v2.py][line:426][INFO] global_steps 3250 - lr: 0.0000133018  loss: 1.40373135
+[2022-05-28 22:30:23,363][model_v2.py][line:426][INFO] global_steps 3275 - lr: 0.0000129562  loss: 1.03586566
+[2022-05-28 22:33:15,045][model_v2.py][line:426][INFO] global_steps 3300 - lr: 0.0000126135  loss: 1.08564639
+[2022-05-28 22:33:15,049][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 22:33:15,053][model_v2.py][line:426][INFO] ********** Step 3300 **********
+[2022-05-28 22:34:31,811][model_v2.py][line:426][INFO] ********** Saving best result in step 3300 **********
+[2022-05-28 22:34:31,813][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 22:37:23,642][model_v2.py][line:426][INFO] global_steps 3325 - lr: 0.0000122740  loss: 1.05251026
+[2022-05-28 22:40:18,703][model_v2.py][line:426][INFO] global_steps 3350 - lr: 0.0000119375  loss: 1.13554835
+[2022-05-28 22:43:07,902][model_v2.py][line:426][INFO] global_steps 3375 - lr: 0.0000116043  loss: 0.95767558
+[2022-05-28 22:46:06,103][model_v2.py][line:426][INFO] global_steps 3400 - lr: 0.0000112744  loss: 0.97746408
+[2022-05-28 22:46:06,104][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 22:46:06,106][model_v2.py][line:426][INFO] ********** Step 3400 **********
+[2022-05-28 22:47:23,013][model_v2.py][line:426][INFO] ********** Saving best result in step 3400 **********
+[2022-05-28 22:47:23,015][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 22:50:12,073][model_v2.py][line:426][INFO] global_steps 3425 - lr: 0.0000109479  loss: 0.98954022
+[2022-05-28 22:52:57,248][model_v2.py][line:426][INFO] global_steps 3450 - lr: 0.0000106249  loss: 1.15700531
+[2022-05-28 22:55:47,510][model_v2.py][line:426][INFO] global_steps 3475 - lr: 0.0000103054  loss: 1.18938947
+[2022-05-28 22:58:49,887][model_v2.py][line:426][INFO] global_steps 3500 - lr: 0.0000099895  loss: 0.96110809
+[2022-05-28 22:58:49,888][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 22:58:49,888][model_v2.py][line:426][INFO] ********** Step 3500 **********
+[2022-05-28 23:00:06,596][model_v2.py][line:426][INFO] ********** Saving best result in step 3500 **********
+[2022-05-28 23:00:06,611][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 23:02:54,959][model_v2.py][line:426][INFO] global_steps 3525 - lr: 0.0000096773  loss: 1.15903497
+[2022-05-28 23:05:56,824][model_v2.py][line:426][INFO] global_steps 3550 - lr: 0.0000093689  loss: 0.91612220
+[2022-05-28 23:08:54,093][model_v2.py][line:426][INFO] global_steps 3575 - lr: 0.0000090644  loss: 0.94939315
+[2022-05-28 23:11:39,119][model_v2.py][line:426][INFO] global_steps 3600 - lr: 0.0000087638  loss: 0.99351001
+[2022-05-28 23:11:39,121][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 23:11:39,124][model_v2.py][line:426][INFO] ********** Step 3600 **********
+[2022-05-28 23:12:55,764][model_v2.py][line:426][INFO] ********** Saving best result in step 3600 **********
+[2022-05-28 23:12:55,765][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 23:15:54,406][model_v2.py][line:426][INFO] global_steps 3625 - lr: 0.0000084672  loss: 1.11197686
+[2022-05-28 23:18:48,267][model_v2.py][line:426][INFO] global_steps 3650 - lr: 0.0000081747  loss: 0.93086594
+[2022-05-28 23:21:33,193][model_v2.py][line:426][INFO] global_steps 3675 - lr: 0.0000078863  loss: 0.99430186
+[2022-05-28 23:24:25,421][model_v2.py][line:426][INFO] global_steps 3700 - lr: 0.0000076022  loss: 0.77461267
+[2022-05-28 23:24:25,422][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 23:24:25,424][model_v2.py][line:426][INFO] ********** Step 3700 **********
+[2022-05-28 23:25:42,690][model_v2.py][line:426][INFO] ********** Saving best result in step 3700 **********
+[2022-05-28 23:25:42,692][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 23:28:34,870][model_v2.py][line:426][INFO] global_steps 3725 - lr: 0.0000073223  loss: 1.23555446
+[2022-05-28 23:31:29,328][model_v2.py][line:426][INFO] global_steps 3750 - lr: 0.0000070468  loss: 0.96580768
+[2022-05-28 23:34:23,639][model_v2.py][line:426][INFO] global_steps 3775 - lr: 0.0000067758  loss: 0.92638415
+[2022-05-28 23:37:13,933][model_v2.py][line:426][INFO] global_steps 3800 - lr: 0.0000065092  loss: 1.18990457
+[2022-05-28 23:37:13,935][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 23:37:13,937][model_v2.py][line:426][INFO] ********** Step 3800 **********
+[2022-05-28 23:38:31,560][model_v2.py][line:426][INFO] ********** Saving best result in step 3800 **********
+[2022-05-28 23:38:31,561][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 23:41:19,083][model_v2.py][line:426][INFO] global_steps 3825 - lr: 0.0000062472  loss: 1.05934513
+[2022-05-28 23:44:06,758][model_v2.py][line:426][INFO] global_steps 3850 - lr: 0.0000059899  loss: 0.97267282
+[2022-05-28 23:47:01,654][model_v2.py][line:426][INFO] global_steps 3875 - lr: 0.0000057372  loss: 0.98872793
+[2022-05-28 23:50:02,824][model_v2.py][line:426][INFO] global_steps 3900 - lr: 0.0000054892  loss: 1.08166683
+[2022-05-28 23:50:02,825][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-28 23:50:02,828][model_v2.py][line:426][INFO] ********** Step 3900 **********
+[2022-05-28 23:51:18,688][model_v2.py][line:426][INFO] ********** Saving best result in step 3900 **********
+[2022-05-28 23:51:18,691][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-28 23:54:22,240][model_v2.py][line:426][INFO] global_steps 3925 - lr: 0.0000052461  loss: 1.14649868
+[2022-05-28 23:57:14,491][model_v2.py][line:426][INFO] global_steps 3950 - lr: 0.0000050079  loss: 0.87665176
+[2022-05-28 23:59:58,123][model_v2.py][line:426][INFO] global_steps 3975 - lr: 0.0000047746  loss: 0.99606067
+[2022-05-29 00:02:39,758][model_v2.py][line:426][INFO] global_steps 4000 - lr: 0.0000045463  loss: 0.99338400
+[2022-05-29 00:02:39,759][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-29 00:02:39,762][model_v2.py][line:426][INFO] ********** Step 4000 **********
+[2022-05-29 00:03:56,797][model_v2.py][line:426][INFO] ********** Saving best result in step 4000 **********
+[2022-05-29 00:03:56,810][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-29 00:06:53,898][model_v2.py][line:426][INFO] global_steps 4025 - lr: 0.0000043230  loss: 0.97164661
+[2022-05-29 00:09:49,999][model_v2.py][line:426][INFO] global_steps 4050 - lr: 0.0000041048  loss: 1.05550897
+[2022-05-29 00:12:39,167][model_v2.py][line:426][INFO] global_steps 4075 - lr: 0.0000038918  loss: 0.79708213
+[2022-05-29 00:15:21,275][model_v2.py][line:426][INFO] global_steps 4100 - lr: 0.0000036840  loss: 1.10868990
+[2022-05-29 00:15:21,276][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-29 00:15:21,276][model_v2.py][line:426][INFO] ********** Step 4100 **********
+[2022-05-29 00:16:37,644][model_v2.py][line:426][INFO] ********** Saving best result in step 4100 **********
+[2022-05-29 00:16:37,645][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-29 00:19:22,080][model_v2.py][line:426][INFO] global_steps 4125 - lr: 0.0000034814  loss: 1.11904240
+[2022-05-29 00:22:13,918][model_v2.py][line:426][INFO] global_steps 4150 - lr: 0.0000032842  loss: 0.99880159
+[2022-05-29 00:25:02,030][model_v2.py][line:426][INFO] global_steps 4175 - lr: 0.0000030923  loss: 1.06366730
+[2022-05-29 00:27:42,524][model_v2.py][line:426][INFO] global_steps 4200 - lr: 0.0000029059  loss: 1.01189578
+[2022-05-29 00:27:42,525][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-29 00:27:42,526][model_v2.py][line:426][INFO] ********** Step 4200 **********
+[2022-05-29 00:28:57,757][model_v2.py][line:426][INFO] ********** Saving best result in step 4200 **********
+[2022-05-29 00:28:57,758][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-29 00:31:42,268][model_v2.py][line:426][INFO] global_steps 4225 - lr: 0.0000027248  loss: 0.95781296
+[2022-05-29 00:34:34,724][model_v2.py][line:426][INFO] global_steps 4250 - lr: 0.0000025493  loss: 0.96568352
+[2022-05-29 00:37:31,259][model_v2.py][line:426][INFO] global_steps 4275 - lr: 0.0000023793  loss: 0.73285598
+[2022-05-29 00:40:14,234][model_v2.py][line:426][INFO] global_steps 4300 - lr: 0.0000022149  loss: 1.03647482
+[2022-05-29 00:40:14,235][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-29 00:40:14,237][model_v2.py][line:426][INFO] ********** Step 4300 **********
+[2022-05-29 00:41:29,573][model_v2.py][line:426][INFO] ********** Saving best result in step 4300 **********
+[2022-05-29 00:41:29,576][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-29 00:44:14,766][model_v2.py][line:426][INFO] global_steps 4325 - lr: 0.0000020561  loss: 0.95830387
+[2022-05-29 00:46:56,629][model_v2.py][line:426][INFO] global_steps 4350 - lr: 0.0000019030  loss: 0.86331117
+[2022-05-29 00:49:51,751][model_v2.py][line:426][INFO] global_steps 4375 - lr: 0.0000017556  loss: 0.93140179
+[2022-05-29 00:52:42,647][model_v2.py][line:426][INFO] global_steps 4400 - lr: 0.0000016139  loss: 0.98291957
+[2022-05-29 00:52:42,648][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-29 00:52:42,649][model_v2.py][line:426][INFO] ********** Step 4400 **********
+[2022-05-29 00:54:02,770][model_v2.py][line:426][INFO] ********** Saving best result in step 4400 **********
+[2022-05-29 00:54:02,772][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-29 00:56:52,425][model_v2.py][line:426][INFO] global_steps 4425 - lr: 0.0000014780  loss: 1.14464676
+[2022-05-29 00:59:45,717][model_v2.py][line:426][INFO] global_steps 4450 - lr: 0.0000013479  loss: 0.95546663
+[2022-05-29 01:02:33,499][model_v2.py][line:426][INFO] global_steps 4475 - lr: 0.0000012236  loss: 1.21529484
+[2022-05-29 01:05:13,718][model_v2.py][line:426][INFO] global_steps 4500 - lr: 0.0000011052  loss: 0.96101594
+[2022-05-29 01:05:13,719][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-29 01:05:13,721][model_v2.py][line:426][INFO] ********** Step 4500 **********
+[2022-05-29 01:06:30,449][model_v2.py][line:426][INFO] ********** Saving best result in step 4500 **********
+[2022-05-29 01:06:30,451][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-29 01:09:43,792][model_v2.py][line:426][INFO] global_steps 4525 - lr: 0.0000009927  loss: 0.79218960
+[2022-05-29 01:12:25,572][model_v2.py][line:426][INFO] global_steps 4550 - lr: 0.0000008861  loss: 1.13819337
+[2022-05-29 01:15:09,570][model_v2.py][line:426][INFO] global_steps 4575 - lr: 0.0000007854  loss: 0.97620356
+[2022-05-29 01:17:45,723][model_v2.py][line:426][INFO] global_steps 4600 - lr: 0.0000006908  loss: 1.28183925
+[2022-05-29 01:17:45,724][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-29 01:17:45,725][model_v2.py][line:426][INFO] ********** Step 4600 **********
+[2022-05-29 01:19:02,159][model_v2.py][line:426][INFO] ********** Saving best result in step 4600 **********
+[2022-05-29 01:19:02,161][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-29 01:21:40,659][model_v2.py][line:426][INFO] global_steps 4625 - lr: 0.0000006021  loss: 1.42871618
+[2022-05-29 01:24:17,523][model_v2.py][line:426][INFO] global_steps 4650 - lr: 0.0000005194  loss: 0.90251815
+[2022-05-29 01:26:45,062][model_v2.py][line:426][INFO] global_steps 4675 - lr: 0.0000004428  loss: 1.07386029
+[2022-05-29 01:29:34,377][model_v2.py][line:426][INFO] global_steps 4700 - lr: 0.0000003723  loss: 0.97695452
+[2022-05-29 01:29:34,378][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-29 01:29:34,382][model_v2.py][line:426][INFO] ********** Step 4700 **********
+[2022-05-29 01:30:51,449][model_v2.py][line:426][INFO] ********** Saving best result in step 4700 **********
+[2022-05-29 01:30:51,450][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-29 01:33:55,754][model_v2.py][line:426][INFO] global_steps 4725 - lr: 0.0000003078  loss: 1.02386749
+[2022-05-29 01:36:51,681][model_v2.py][line:426][INFO] global_steps 4750 - lr: 0.0000002494  loss: 1.30402672
+[2022-05-29 01:39:58,449][model_v2.py][line:426][INFO] global_steps 4775 - lr: 0.0000001971  loss: 0.99263579
+[2022-05-29 01:42:54,227][model_v2.py][line:426][INFO] global_steps 4800 - lr: 0.0000001510  loss: 0.89962149
+[2022-05-29 01:42:54,228][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-29 01:42:54,229][model_v2.py][line:426][INFO] ********** Step 4800 **********
+[2022-05-29 01:44:12,035][model_v2.py][line:426][INFO] ********** Saving best result in step 4800 **********
+[2022-05-29 01:44:12,037][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-29 01:47:05,899][model_v2.py][line:426][INFO] global_steps 4825 - lr: 0.0000001110  loss: 0.86272919
+[2022-05-29 01:49:59,454][model_v2.py][line:426][INFO] global_steps 4850 - lr: 0.0000000771  loss: 1.07828069
+[2022-05-29 01:52:41,988][model_v2.py][line:426][INFO] global_steps 4875 - lr: 0.0000000493  loss: 0.95957792
+[2022-05-29 01:55:32,381][model_v2.py][line:426][INFO] global_steps 4900 - lr: 0.0000000278  loss: 0.91242719
+[2022-05-29 01:55:32,382][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-29 01:55:32,385][model_v2.py][line:426][INFO] ********** Step 4900 **********
+[2022-05-29 01:56:52,862][model_v2.py][line:426][INFO] ********** Saving best result in step 4900 **********
+[2022-05-29 01:56:52,863][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-29 01:59:47,275][model_v2.py][line:426][INFO] global_steps 4925 - lr: 0.0000000123  loss: 0.90055692
+[2022-05-29 02:02:35,518][model_v2.py][line:426][INFO] global_steps 4950 - lr: 0.0000000031  loss: 1.06688488
+[2022-05-29 02:05:28,127][model_v2.py][line:426][INFO] global_steps 4975 - lr: 0.0000000000  loss: 1.10234618
+[2022-05-29 02:08:18,718][model_v2.py][line:426][INFO] global_steps 5000 - lr: 0.0000000031  loss: 0.90410656
+[2022-05-29 02:08:18,719][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-29 02:08:18,719][model_v2.py][line:426][INFO] ********** Step 5000 **********
+[2022-05-29 02:09:41,168][model_v2.py][line:426][INFO] ********** Saving best result in step 5000 **********
+[2022-05-29 02:09:41,186][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-29 02:09:41,187][model_v2.py][line:426][INFO] ********** Running evaluating **********
+[2022-05-29 02:09:41,189][model_v2.py][line:426][INFO] ********** Step 5000 **********
+[2022-05-29 02:10:58,545][model_v2.py][line:426][INFO] ********** Evaluating Done **********
+[2022-05-29 02:10:58,546][model_v2.py][line:426][INFO] ********** Training Done **********
